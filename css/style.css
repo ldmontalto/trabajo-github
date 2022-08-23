@@ -1,0 +1,13 @@
+footer{
+    background-color: #151616;
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.footer li{
+    margin: 10px;
+}
