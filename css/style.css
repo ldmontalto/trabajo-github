@@ -11,3 +11,9 @@ footer{
 .footer li{
     margin: 10px;
 }
+​​.backstretch-item img{
+    width:400px !important;
+    height:400px !important;
+    object-fit: fill !important;
+    position:unset !important;
+    }
