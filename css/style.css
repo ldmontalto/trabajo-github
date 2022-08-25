@@ -17,6 +17,9 @@ footer{
     object-fit: fill !important;
     position:unset !important;
     }
-.PreguntasFrecuentes{
+.Titulo{
+    text-align: center;
+}
+.btn{
     text-align: center;
 }

@@ -10,7 +10,7 @@
   <body>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">MONTI</a>
+          <a class="navbar-brand" href="../index.html">MONTI</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -20,14 +20,14 @@
                 <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pag/oferta.html">OFERTA</a>
+                <a class="nav-link" href="./oferta.html">OFERTA</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   ROPA
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">HOMBRE</a></li>
+                  <li><a class="dropdown-item" href="./hombre.html">HOMBRE</a></li>
                   <li><a class="dropdown-item" href="#">MUJER</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">GENEROS</a></li>
@@ -37,24 +37,25 @@
                 <a class="nav-link" href="./contacto.html">CONTACTO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../pag/preguntas.html">PREGUNTAS FRECUENTES</a>
+                <a class="nav-link" href="./preguntas.html">PREGUNTAS FRECUENTES</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
     <main>
-        <h1>CONTACTANOS</h1>
-        <form action="#">
-            <input type="text" placeholder="Nombre y apellido">
-            <hr>
-            <label for="edad">edad</label>
-            <input type="date" name="edad">
-            <hr>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Contactate"></textarea>
-            <hr>
-            <input class="enviar" type="submit"> 
-        </form>
+        <h1 class="Titulo">CONTACTANOS</h1>
+        <div class="container"> 
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Direccion de correo</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="monti@email.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tus dudas</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-dark center">Dark</button>
+        </div>
     </main>
     <footer class="footer">
         <ul>
