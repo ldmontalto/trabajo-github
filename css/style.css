@@ -23,3 +23,7 @@ footer{
 .btn{
     text-align: center;
 }
+.card img:hover{
+    transform: scale(1,4); translate: (1px, 1px);
+    transition: 1s;
+}
