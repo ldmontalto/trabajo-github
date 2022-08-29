@@ -11,6 +11,10 @@ footer{
 .footer li{
     margin: 10px;
 }
+.xd:hover{
+     text-decoration: underline;
+     transform: scale(1.2);    
+}
 ​​.backstretch-item img{
     width:400px !important;
     height:400px !important;
@@ -24,6 +28,9 @@ footer{
     text-align: center;
 }
 .card img:hover{
-    transform: scale(1,4); translate: (1px, 1px);
+    transform: scale(1.04); translate: (1px, 1px);
     transition: 1s;
+}
+.nav-link:hover{
+    text-decoration: underline;
 }
